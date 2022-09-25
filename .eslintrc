@@ -1,0 +1,22 @@
+ {
+    "root": true,
+   "parserOptions": {
+     "parser": "@babel/eslint-parser",
+     "requireConfigFile": false
+   },
+   "env": {
+     "browser": true,
+     "node": true,
+     "es6": true
+   },
+   "extends": ["Prettier", "plugin:vue/essential"],
+   "plugins": ["vue"],
+   "rules": {
+     "no-unused-vars": "warn",
+     "no-undef": "warn",
+     "no-labels": "off",
+     "camelcase": "off",
+     "vue/multi-word-component-names": 0,
+     "quote-props": ["warn", "consistent"]
+   }
+ }
